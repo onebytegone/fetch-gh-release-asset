@@ -16,6 +16,10 @@ The release version to fetch from. Default `"latest"`. If not `"latest"`, this h
 
 **Required** The name of the file in the release.
 
+### `output_file`
+
+The filename to write out the file to. Defaults to the value of `file`.
+
 ### `token`
 Optional Personal Access Token to access repository. You need to either specify this or set the GITHUB_TOKEN environment variable yourself.
 
